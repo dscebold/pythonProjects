@@ -1,0 +1,15 @@
+import re
+
+def main():
+    emailDict = {}
+    infile = open("input.txt", "r")
+    
+    for line in infile:
+        
+    
+    
+    
+
+
+if __name__ == '__main__':
+    main()

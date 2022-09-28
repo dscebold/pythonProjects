@@ -1,0 +1,14 @@
+print("Hello World")
+
+cal = "bob"
+
+# def firstClass():
+#     print("Hello World")
+#     tot = 0
+#     fun = True
+#     while(fun):
+#         if(tot >= 10):
+#             fun = False
+#         tot += 1 
+#         print("Hello World")
+# firstClass()

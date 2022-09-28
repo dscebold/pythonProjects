@@ -1,0 +1,7 @@
+print("Hello World")
+
+
+def firstClass():
+    print("Hello World")
+    
+firstClass()

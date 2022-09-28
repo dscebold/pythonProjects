@@ -1,0 +1,14 @@
+best_score = 0
+
+def get_scores():
+    while(True):
+        try:
+            num_students = (int)(input("Total number of students: "))
+        except:
+            print("Type a Number")
+        else:
+            break
+    nums = input(f"Enter {num_students} scores: ")
+    scores = (int)nums.split(" ", -1)
+    print(scores)
+get_scores()

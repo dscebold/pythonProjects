@@ -1,0 +1,24 @@
+def main():
+    print("John = " + john_tot + ", Jane = " + jane_tot + ", Total = " (jane_tot + john_tot)
+
+
+def vote_menu():
+    print("v-vote\nx-exit")
+    while(True):
+        opt = input("Option: ")
+        if(opt.lower() == "v" or opt.lower == "x"):
+            break
+        else:
+            print("Invalid (v/x):")
+    if(opt.lower == "v"):
+        candidate_menu()
+    else:
+        main()
+    
+def candidate_menu(): 
+    print()
+    
+    
+john_tot = 0
+jane_tot = 0
+

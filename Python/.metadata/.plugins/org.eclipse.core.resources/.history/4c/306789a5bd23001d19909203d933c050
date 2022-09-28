@@ -1,0 +1,41 @@
+from ast import Num
+best_score = 0
+
+def get_scores():
+    global best_score
+    while(True):
+        try:
+            num_students = (int)(input("Total number of students: "))
+        except:
+            print("Type a Number")
+        else:
+            break
+    nums = input(f"Enter {num_students} scores: ")
+    scores = nums.split(" ", -1)
+    if(len(scores) < num_students):
+        num_students = len(scores)
+    for i in range(num_students):
+        if(scores[i].isnumeric()):
+            scores[i] = (int)(scores[i])
+        else:
+            while(True):  
+                try:
+                    scores[i] = (int)(input(f"Score {i+1} is not a number, please type a number: "))
+                except:
+                    print("Type a Number")
+                else:
+                    break
+    for i in range(num_students):
+        if(scores[i] > best_score):
+            best_score = scores[i]
+    for i in range(num_students):
+        if(scores[i] >= best_score - 10):
+            print(f"Student {i+1} score is {scores[i]} and grade is A")
+        elif(scores[i] >= best_score - 20):
+            print(f"Student {i+1} score is {scores[i]} and grade is B")
+        elif(scores[i] >= best_score - 30):
+            print(f"Student {i+1} score is {scores[i]} and grade is C")
+        elif(scores[i] >= best_score - 40):
+            print(f"Student {i+1} score is {scores[i]} and grade is D")
+    print(scores)
+get_scores()

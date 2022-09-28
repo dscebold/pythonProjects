@@ -1,0 +1,46 @@
+
+def main():
+    john_tot = 0
+    jane_tot = 0
+    response = vote_menu()
+    while(response != "x"):
+        response = vote_menu()
+        if(response == "v"):
+            add = candidate_menu()
+            if(add == "0"):
+                john_tot += 1
+            elif(add == "1"):
+                jane_tot += 1
+    print("John = " + str(john_tot) + ", Jane = " + str(jane_tot) + ", Total = " + str(jane_tot + john_tot))
+
+
+def vote_menu():
+    print("v-vote\nx-exit")
+    opt = input("Option: ").strip().lower()
+    while(opt != "v" and opt != "x"):
+        opt = input("Invalid (v/x):").strip().lower()
+    return opt
+    
+def candidate_menu(): 
+    print("0-John\n1-Jane")
+    vote = input("Candidate: ").strip()
+    # while(True):
+    #     try:
+    #         vote = (int)(input("Candidate: "))
+    #     except:
+    #         print("Type a Number")
+    #     else:
+    #         break
+    #
+
+    while(vote != "1" and vote != "0"):
+        vote = input("Invalid (0/1): ").strip()
+        # try:
+        #     vote = (int)(input("Invalid (0/1): "))
+        # except:
+        #     print("Type a Number")     
+    return vote     
+    
+
+main()
+

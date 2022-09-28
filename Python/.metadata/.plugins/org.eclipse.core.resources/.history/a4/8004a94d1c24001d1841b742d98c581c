@@ -1,0 +1,53 @@
+import math
+
+def area(shape):
+    if(shape == 1):
+        while(True):
+            try:
+                radius = int(input('Circle Radius: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        print(f"{((radius ** 2) * math.pi):.2f}")
+    if(shape == 2):
+        while(True):
+            try:
+                side1 = int(input('Rectangle Side 1: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        while(True):
+            try:
+                side2 = int(input('Rectangle Side 2: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        print(f"{(side1 * side2):.2f}")
+    if(shape == 3):
+        while(True):
+            try:
+                side = int(input('Square Side: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        print(f"{side ** 2:.2f}")
+    if(shape == 4):
+        while(True):
+            try:
+                side1 = int(input('Triangle Side 1: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        while(True):
+            try:
+                side2 = int(input('Triangle Side 2: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        print(f"{(side1 * side2) * .5:.2f}")

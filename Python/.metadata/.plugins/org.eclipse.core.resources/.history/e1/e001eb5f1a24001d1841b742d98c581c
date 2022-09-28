@@ -1,0 +1,13 @@
+import math
+
+def perimeter(shape):
+    if(shape == 1):
+        while(True):
+            try:
+                radius = int(input('Enter Radius: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        print((radius * 2 * math.pi))
+    

@@ -1,0 +1,26 @@
+import re
+import csv
+
+def main():
+    emailDict = {}
+    infile = open("input.txt", "r")
+    
+    response = infile.read()
+    
+    
+    infile.close(); 
+    outfile = open("output,csv", "w")
+    
+    csvWriter = csv.writer(outfile) 
+    
+    csvWriter.writerow(["hello", "world"])
+    
+    # for line in infile:
+        
+    
+    
+    
+
+
+if __name__ == '__main__':
+    main()

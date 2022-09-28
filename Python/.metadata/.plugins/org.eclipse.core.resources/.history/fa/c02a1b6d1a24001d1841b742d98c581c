@@ -1,0 +1,47 @@
+import math
+
+def perimeter(shape):
+    if(shape == 1):
+        while(True):
+            try:
+                radius = int(input('Enter Radius: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        print((radius * 2 * math.pi))
+    if(shape == 2):
+        while(True):
+            try:
+                side1 = int(input('Enter Side 1: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        while(True):
+            try:
+                side2 = int(input('Enter Side 2: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        print(((side1 * 2) + (side2 * 2)))
+    if(shape == 3):
+        while(True):
+            try:
+                radius = int(input('Enter Radius: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        print((radius * 2 * math.pi)
+    if(shape == 4):
+        while(True):
+            try:
+                radius = int(input('Enter Radius: '))
+            except:
+                print("Enter a number")
+            else:
+                break
+        print((radius * 2 * math.pi))
+    

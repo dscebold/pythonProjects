@@ -1,0 +1,4 @@
+def perimeter(shape):
+    if(shape == 1):
+        
+    

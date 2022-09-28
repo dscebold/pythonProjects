@@ -1,0 +1,16 @@
+import re
+
+def main():
+    emailDict = {}
+    infile = open("input.txt", "r")
+    outfile = open("output.csv", "w")
+    
+    for line in infile:
+        
+    
+    
+    
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,58 @@
+import math
+
+def cricle():
+    while(True):
+        try:
+            radius = float(input('Circle Radius: '))
+        except:
+            print("Enter a number")
+        else:
+            break
+    return(f"{((radius ** 2) * math.pi):.2f}")
+
+
+def rectangle():
+    while(True):
+        try:
+            side1 = float(input('Rectangle Side 1: '))
+        except:
+            print("Enter a number")
+        else:
+            break
+    while(True):
+        try:
+            side2 = float(input('Rectangle Side 2: '))
+        except:
+            print("Enter a number")
+        else:
+            break
+    return(f"{(side1 * side2):.2f}")
+
+
+def square():
+    while(True):
+        try:
+            side = float(input('Square Side: '))
+        except:
+            print("Enter a number")
+        else:
+            break
+    return(f"{side ** 2:.2f}")
+
+
+def triangle():
+    while(True):
+        try:
+            side1 = float(input('Triangle Side 1: '))
+        except:
+            print("Enter a number")
+        else:
+            break
+    while(True):
+        try:
+            side2 = float(input('Triangle Side 2: '))
+        except:
+            print("Enter a number")
+        else:
+            break
+    return(f"{(side1 * side2) * .5:.2f}")

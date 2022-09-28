@@ -1,0 +1,42 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\dsceb\OneDrive\Desktop\Python\.metadata\.plugins\org.eclipse.core.resources\.projects\Labs\com.python.pydev.analysis\v2_indexcache
+LabsPackage.DrewScebold2_1|1661369858324646400|C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\LabsPackage\DrewScebold2_1.py
+LabsPackage.DrewScebold4_1|1661545569536038500|C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\LabsPackage\DrewScebold4_1.py
+Shapes.DrewScebold3_1|1661541328635460100|C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\Shapes\DrewScebold3_1.py
+LabsPackage.__init__|1661545569536538600|C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\LabsPackage|^
+Shapes.__init__|1661541328635960300|C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\Shapes|^
+Shapes.perimeter|1661466997752492500|C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\Shapes\perimeter.py
+LabsPackage.DrewScebold1_1|1661369768335918200|C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\LabsPackage\DrewScebold1_1.py
+Shapes.area|1661467168901338900|C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\Shapes\area.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+8=LabsPackage.DrewScebold2_1
+7=C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\LabsPackage\DrewScebold2_1.py
+9=C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\Shapes\DrewScebold3_1.py
+3=C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\Shapes\area.py
+12=LabsPackage.DrewScebold4_1
+10=Shapes.DrewScebold3_1
+6=Shapes.perimeter
+1=C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\LabsPackage\DrewScebold1_1.py
+11=C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\LabsPackage\DrewScebold4_1.py
+2=LabsPackage.DrewScebold1_1
+4=Shapes.area
+5=C:\Users\dsceb\OneDrive\Desktop\Python\Labs\src\Shapes\perimeter.py
+-- END DICTIONARY
+-- START TREE 1
+9
+can|1|candidate_menu!1^24#5*18@
+cir|2|circle!3^3#5*34@circle!5^3#5*50@
+get|2|get_scores!7^3#5*66@getCalc!9^31#5*82@
+mai|3|main!11^4#5*98@main!9^46#5*82@main!1^2#5*18@
+rec|2|rectangle!5^14#5*50@rectangle!3^14#5*34@
+sel|1|selection!9^4#5*82@
+squ|2|square!5^32#5*50@square!3^32#5*34@
+tri|2|triangle!5^43#5*50@triangle!3^43#5*34@
+vot|1|vote_menu!1^17#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
